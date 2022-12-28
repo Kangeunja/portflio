@@ -242,15 +242,177 @@ li {
 
 
 #sub-phone{
-  width: 300px;
-  height: 400px;
-  background-color: black;
+  width: 331px;
+  height: 311px;
+  /* background-color: rgb(255, 255, 255); */
+  background-image: url(../img/sub/phone.png);
   position: absolute;
-  bottom:10px;
-  right: 10px;
+  bottom:50px;
+  right: 30px;
+}
+
+@font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#p1{
+  width: 219px;
+  height: 66px;
+  /* background-color: aquamarine; */
+  background-image: url(../img/sub/p1.png);
+  position: absolute;
+  top: 53px;
+  /* opacity: 0; */
+  left: 20px;
+}
+
+#p1-typing{
+  width: 45px;
+  animation: typing1 1s steps(45);
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 900;
+  position: absolute;
+  top: 30px;
+  left: 92px;
+  font-family: 'GmarketSansMedium';
 }
 
 
+@keyframes typing1{
+  from{
+    width: 0;
+  }
+}
+
+
+
+#p2{
+  width: 138px;
+  height: 37px;
+  /* background-color: yellowgreen; */
+  background-image: url(../img/sub/p2.png);
+  position: absolute;
+  top: 119px;
+  right: 20px;
+}
+
+#p2-typing{
+  width: 0;
+  animation: typing2 1s steps(45) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 900;
+  position: absolute;
+  top: 10px;
+  left: 82px;
+  animation-delay:2s;
+  font-family: 'GmarketSansMedium';
+}
+
+
+@keyframes typing2{
+  from{
+    width: 0;
+  }
+  to{
+    width: 45px;
+    opacity: 1;
+  }
+}
+
+
+#p3{
+  width: 278px;
+  height: 66px;
+  /* background-color: yellowgreen; */
+  background-image: url(../img/sub/p3.png);
+  position: absolute;
+  top: 152px;
+  left: 20px;
+}
+
+#p3-typing{
+  width: 0;
+  animation: typing3 1s steps(150) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 900;
+  position: absolute;
+  top: 31px;
+  left: 98px;
+  animation-delay:4s;
+  font-family: 'GmarketSansMedium';
+}
+
+
+@keyframes typing3{
+  from{
+    width: 0;
+  }
+  to{
+    width: 150px;
+    opacity: 1;
+  }
+}
+
+
+#p4{
+  width: 205px;
+  height: 51px;
+  /* background-color: yellowgreen; */
+  background-image: url(../img/sub/p4.png);
+  position: absolute;
+  top: 224px;
+  right: 20px;
+}
+
+
+#p4-typing{
+  width: 0;
+  animation: typing4 1s steps(150) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: monospace;
+  font-size: 15px;
+  font-weight: 900;
+  position: absolute;
+  top: 11px;
+  left: 82px;
+  animation-delay:6s;
+  font-family: 'GmarketSansMedium';
+}
+
+#p4-typing p{
+  font-size: 10px;
+  font-weight: normal;
+}
+
+
+@keyframes typing4{
+  from{
+    width: 0;
+  }
+  to{
+    width: 150px;
+    opacity: 1;
+  }
+}
+
+
+#p4:hover{
+  background-image: url(../img/sub/p4_hover.png);
+  cursor: pointer;
+}
 
 
 #main-3{
