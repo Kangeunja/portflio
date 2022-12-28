@@ -1,0 +1,302 @@
+@media all and (min-width:1200px) {
+
+
+
+  #wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(2, 88, 56, 1);
+    float: left;
+  }
+
+
+
+  #logo_wrap {
+    width: 150px;
+    height: 70px;
+    /*background-color: white;*/
+    margin: 25px 50px;
+    float: left;
+  }
+
+  #logo {
+    width: 150px;
+    height: 35px;
+    background-image: url(../img/main/logo.png);
+    background-size: 100% 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+
+
+  #bottom_logo {
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    color: rgba(239, 78, 56, 1);
+    font-weight: 900;
+  }
+
+  /*header end*/
+
+
+
+  #side_menu_1 {
+    width: 650px;
+    height: 50px;
+    /* background-color: lightpink; */
+    float: right;
+    margin: 25px 50px;
+  }
+
+  #side_menu_1>li {
+    width: 110px;
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(239, 78, 56, 1);
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 25px;
+  }
+
+  #side_menu_1>li:last-child {
+    margin-right: 0;
+  }
+
+  #side_menu_1>li a {
+    color: rgba(239, 78, 56, 1);
+  }
+
+  /*side_menu end*/
+
+
+
+
+  #mo_side_wrap {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  #section_1 {
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+
+
+
+  #container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: aquamarine;*/
+  }
+
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+  #program_main_title {
+    width: 1200px;
+    height: 60px;
+    /*background-color: lightgoldenrodyellow;*/
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* font-family: 'Gugi', cursive; */
+    color: #EF4E38;
+    font-family: 'GmarketSansMedium';
+  }
+
+
+
+
+  .program_content {
+    width: 1200px;
+    height: 300px;
+    /* background-color: lightpink; */
+    margin-bottom: 150px;
+  }
+
+
+  #program_con_img1 {
+    width: 350px;
+    height: 300px;
+    background-image: url(../img/pro/program_con_img1.png);
+    float: left;
+    margin-right: 100px;
+  }
+
+
+
+
+  .program_detail_wrap {
+    width: 420px;
+    height: 64px;
+    /* background-color: brown; */
+    float: left;
+    margin-top: 76px;
+
+
+  }
+
+  .program_con_detail1 {
+    font-weight: 900;
+  }
+
+
+
+  .program_con_box {
+    width: 234px;
+    height: 51px;
+    background-color: orangered;
+    text-align: center;
+    line-height: 51px;
+    /*       color: white;*/
+    margin-bottom: 150px;
+    float: left;
+    margin-top: 33px;
+
+  }
+
+
+  .program_con_box a {
+    color: white;
+  }
+
+
+
+
+  #program_con_img2 {
+    width: 350px;
+    height: 300px;
+    background-image: url(../img/pro/program_con_img2.png);
+    float: left;
+    margin-right: 100px;
+  }
+
+
+
+
+  #program_con_img3 {
+    width: 350px;
+    height: 300px;
+    background-image: url(../img/pro/program_con_img3.png);
+    float: left;
+    margin-right: 100px;
+  }
+
+
+
+
+  footer {
+    width: 100%;
+    height: 150px;
+    background-color: darkgreen;
+    float: left;
+  }
+
+
+  #footer_logo_wrap {
+    width: 150px;
+    height: 70px;
+    /* background-color: #DB9A96; */
+    float: left;
+    margin: 40px 50px;
+  }
+
+  #footer_logo_img {
+    width: 150px;
+    height: 35px;
+    background-image: url(../img/footer/footer_logo_img.png);
+    background-size: 100% 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+
+
+  #in_footer {
+    width: 1200px;
+    height: 50px;
+    margin: 50px auto 0 auto;
+    /*background-color: antiquewhite;*/
+    color: white;
+    font-size: 15px;
+
+    /*    line-height: 150px;*/
+
+  }
+
+
+  #footer_logo {
+    width: 70px;
+    height: 50px;
+    float: right;
+    /*background-color: beige;*/
+    position: relative;
+    bottom: 30px;
+  }
+
+
+  #logo1 {
+    width: 30px;
+    height: 30px;
+    float: left;
+  }
+
+  #logo2 {
+    width: 30px;
+    height: 30px;
+    float: right;
+  }
+
+
+
+
+  #top_btn {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/footer/top_btn.png);
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+
+
+
+
+}
+
+/*end*/

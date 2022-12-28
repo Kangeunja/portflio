@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  img {
+    display: block;
+    border: 0;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  @font-face {
+    font-family: 'Tenada';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  #main {
+    width: 1200px;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #main-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tenada';
+    color: rgb(192, 114, 66);
+    font-style: italic;
+  }
+
+  #main-text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'GmarketSansMedium';
+    font-style: normal;
+  }
+
+  #main-text-wrap {
+    width: 100%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    margin-bottom: 30px;
+  }
+
+  .main-text-ex {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(192, 114, 66);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'GmarketSansMedium';
+    float: left;
+    margin-right: 20px;
+  }
+
+  .main-text-ex2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'GmarketSansMedium';
+  }
+
+  #box-top3 {
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-top3.png);
+    margin-bottom: 20px;
+  }
+
+  #box-middle10 {
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle10.png);
+    margin-bottom: 20px;
+  }
+
+  #box-middle11 {
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle11.png);
+    margin-bottom: 20px;
+  }
+
+
+  #sub {
+    width: 1040px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: blue; */
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #sub-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #sub-text2,
+  #sub-text3,
+  #sub-text4 {
+    text-align: right;
+    font-size: 15px;
+  }
+
+  #box-middle12 {
+    width: 100%;
+    height: 745px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle12.png);
+    margin-bottom: 50px;
+  }
+
+  #box-middle13 {
+    width: 100%;
+    height: 745px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle13.png);
+    margin-bottom: 50px;
+  }
+  #box-bottom3{
+    width: 100%;
+    height: 745px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-bottom3.png);
+    margin-bottom: 50px;
+  }
+
+
+  #back{
+  width: 150px;
+  height: 50px;
+  /* background-color: yellow; */
+  border: 1px solid rgb(166, 166, 166);
+  line-height: 50px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#back:hover{
+  border: none;
+  background-color: rgb(166, 166, 166);
+  color: white;
+}
+
+
+
+</style>
+
+<body>
+
+  <div id="main">
+    <div id="main-text">
+      와인브로슈어
+      <p>
+        개인프로젝트&ensp;|&ensp; 참여도: 100% &ensp;|&ensp;응용프로그램 : Indd
+      </p>
+    </div>
+
+    <div id="main-text-wrap">
+      <div class="main-text-ex">설명</div>
+      <div class="main-text-ex2">
+        와인을 대상으로 브로슈어디자인을 제작하였고, 와인의 용어와 맛있게 마시는 방법,
+        와인의 적당한 온도와 보관법을 각 구간별로 파트를 만들어 보기 쉽게 디자인했습니다.
+      </div>
+    </div>
+
+    <div id="box-top3"></div>
+    <div id="box-middle10"></div>
+    <div id="box-middle11"></div>
+  </div>
+
+  <div id="sub">
+    <div id="sub-text">
+      <h2>original</h2>
+    </div>
+    <div id="sub-text2">3/1</div>
+    <div id="box-middle12"></div>
+    <div id="sub-text3">3/2</div>
+    <div id="box-middle13"></div>
+    <div id="sub-text4">3/3</div>
+    <div id="box-bottom3"></div>
+  </div>
+
+  <a id="back" href="#">이전으로 돌아가기</a>
+
+</body>
+
+</html>

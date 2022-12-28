@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  img {
+    display: block;
+    border: 0;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  @font-face {
+    font-family: 'Tenada';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  #main {
+    width: 1200px;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #main-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tenada';
+    color: rgb(20, 151, 191);
+    font-style: italic;
+  }
+
+  #main-text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'GmarketSansMedium';
+    font-style: normal;
+  }
+
+  #main-text-wrap {
+    width: 100%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    margin-bottom: 30px;
+  }
+
+  .main-text-ex {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(20, 151, 191);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'GmarketSansMedium';
+    float: left;
+    margin-right: 20px;
+  }
+
+  .main-text-ex2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'GmarketSansMedium';
+  }
+
+  #box-top16 {
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-top16.png);
+    margin-bottom: 20px;
+  }
+
+  
+  #box-middle56{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle56.png);
+    margin-bottom: 20px;
+  }
+
+  #box-middle57{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle57.png);
+    margin-bottom: 20px;
+  }
+
+  #box-middle58{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle58.png);
+    margin-bottom: 20px;
+  }
+
+  
+  #box-middle59{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle59.png);
+    margin-bottom: 20px;
+  }
+
+  #box-middle60{
+    width: 948px;
+    height: 1000px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle60.png);
+    margin: 0 auto 20px auto;
+  }
+
+  #box-middle61{
+    width: 1200px;
+    height: 1000px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle61.png);
+    margin-bottom: 20px;
+  }
+
+  #sub {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: blue; */
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #sub-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #sub-text2 {
+    text-align: right;
+    font-size: 15px;
+  }
+
+  #box-middle62{
+    width: 1200px;
+    height: 1700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle62.png);
+    margin-bottom: 50px;
+  }
+
+  #box-middle63{
+    width: 1200px;
+    height: 2600px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle63.png);
+    margin-bottom: 50px;
+  }
+
+  #box-bottom13{
+    width: 1200px;
+    height: 2600px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-bottom13.png);
+    margin-bottom: 50px;
+  }
+  
+  #back {
+    width: 150px;
+    height: 50px;
+    /* background-color: yellow; */
+    border: 1px solid rgb(166, 166, 166);
+    line-height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #back:hover {
+    border: none;
+    background-color: rgb(166, 166, 166);
+    color: white;
+  }
+
+
+</style>
+<body>
+
+  <div id="main">
+    <div id="main-text">
+      느껴요 제주도 향기를
+      <p>
+        개인프로젝트&ensp;|&ensp; 참여도: 100% &ensp;|&ensp;응용프로그램 : ps
+      </p>
+    </div>
+
+    <div id="main-text-wrap">
+      <div class="main-text-ex">설명</div>
+      <div class="main-text-ex2">
+        제주도에서 개최한 페스티벌을 주제로 진행하였고
+        코리아푸드를 대상으로 디자인을 제작했습니다. 그리고 겉표지는 
+        제주도 '이호해수욕장' 을 모티브로 해 디자인했고
+        주색상은 파란색, 보라색을 사용했습니다.
+      </div>
+    </div>
+    
+    <div id="box-top16"></div>
+    <div id="box-middle56"></div>
+    <div id="box-middle57"></div>
+    <div id="box-middle58"></div>
+    <div id="box-middle59"></div>
+    <div id="box-middle60"></div>
+    <div id="box-middle61"></div>
+  </div>
+
+    
+  <div id="sub">
+    <div id="sub-text">
+      <h2>original</h2>
+    </div>
+    <div id="sub-text2">앞(Front)</div>
+    <div id="box-middle62"></div>
+    <div id="sub-text2">design1</div>
+    <div id="box-middle63"></div>
+    <div id="sub-text2">design2</div>
+    <div id="box-bottom13"></div>
+  </div>
+
+  <a id="back" href="#">이전으로 돌아가기</a>
+  
+</body>
+</html>

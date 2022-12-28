@@ -1,0 +1,1648 @@
+@media all and (max-width:959px) and (min-width:760px) {
+
+    #wrap {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+        height: 200px;
+        /*        background-color: lightblue;*/
+        float: left;
+
+    }
+
+    #in_header {
+        width: /*1200px;*/  /*960px;*/  760px;
+        height: 100%;
+        /*        background-color: lightcoral;*/
+        margin: 0 auto;
+    }
+
+    #line_header {
+        width: 100%;
+        height: 100px;
+        border-bottom: 1px solid gray;
+    }
+
+    #logo {
+        width: 500px;
+        height: 50px;
+        /*        background-color: crimson;*/
+        text-align: center;
+        line-height: 50px;
+        float: left;
+        margin: 35px /*450px;*/  /*250px;*/  150px;
+        font-size: /*40px;*/ 38px;
+        color: darkred;
+        font-family: 'Great Vibes', cursive;
+        cursor: pointer;
+        /*        border-bottom: 1px solid gray;*/
+    }
+   
+    
+    
+    #side_menu {
+        width: /*90px;*/ /*85px; */ 80px;
+        height: 50px;
+       /* background-color: gold;*/
+        float: right;
+        text-align: center;
+        line-height: 50px;
+        margin-top: /*-90px;*/ -80px;
+
+    }
+    
+    
+    
+    #side_1{
+        width:/* 35px;*/ /*30px;*/  25px;
+        height:/* 35px;*/  /*30px;*/ 25px;
+        background-image: url(../img/Login/1.png);
+        background-size: 100% 100%;
+        float: left;
+        cursor: pointer;
+    }
+    
+      #side_2{
+        width: /*35px;*/ /*30px;*/ 25px;
+        height:/* 35px;*/ /*30px;*/ 25px;
+        background-image: url(../img/Login/4.png);
+        background-size: 100% 100%;
+        float: right;
+          cursor: pointer;
+    }
+    
+    
+    
+    
+    /*모바일 사이드메뉴 none*/
+    
+    #mo_side_menu{
+        display: none;
+    }
+    
+    /*end*/
+
+    
+    #menu_wrap {
+        width: /*1200px;*/  /* 960px;*/ 760px;
+        height: 50px;
+        /*background-color: lightpink;*/
+        float: left;
+        cursor: pointer;
+
+    }
+
+    #menu_wrap > li {
+        width: /*288.75px;*/  /* 240px;*/ 152px;
+        height: 100%;
+        float: left;
+        line-height: 50px;
+        text-align: center;
+         margin-right: /*45px;*/  25px;
+        font-size: 20px;
+        position: relative;
+        cursor: pointer;
+        font-weight: 600;
+        font-family: 'JetBrains Mono', monospace;
+    }
+    
+    
+     .tab:after{
+        width: /*130px;*/ 85px;
+        height: 3px;
+        background-color: darkred;
+        display: block;
+        content: '';
+        position: absolute;
+        top: 40px;
+        left: /*53px;*/ /*50px;*/ 33px;
+    }
+    
+    
+    
+    /*검색 아이콘*/
+    #menu_btn{
+        display: none;
+    }
+
+  
+    #menu_label{
+        width: /*35px;*/ 30px;
+        height: /*35px;*/ 30px;
+        background-image: url(../img/Login/5.png);
+        float: right;
+        background-size: 100% 100%;
+        cursor: pointer;
+        position: relative;
+        top: -35px;
+    }
+
+    
+         #menu_btn_box{
+        width: 500px;
+        height: 80px;
+        border-bottom: 1px solid lightgray;
+        margin: 0 auto;
+    }
+
+   #menu_btn_wrap{
+        width: 100%;
+        height: 0;
+        background-color: whitesmoke;
+        float: left;
+        position: relative;
+        z-index: 99;
+        overflow: hidden;
+        transition-duration: 0.5s;
+     /*  border: 1px solid lightgray;*/
+       top: -35px;
+    }
+    
+  
+    
+    
+    
+      #menu_btn:checked ~ #menu_btn_wrap{
+        height: 100px;
+    }
+    
+    
+    
+    
+    
+    /*검색 아이콘 end*/
+    
+    
+    
+    
+    
+    
+
+    #section_1 {
+        width: 100%;
+        height: /*850px;*/ 650px;
+        /*background-color: cornflowerblue;*/
+        float: left;
+        margin-bottom: 50px;
+        background-image: url(../img/wedding/weddeing1/wedding1.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    
+    
+    #section1_main_title{
+        width: /*600px*/ /*500px;*/ 400px;
+        height: /*200px;*/ 150px;
+        /*background-color: lightblue;*/
+        text-align: center;
+        font-size: /*60px*/ /*50px;*/ 40px;
+        font-weight: 900;
+        font-family: 'Nanum Myeongjo', serif;
+        margin: /*180px auto 0 auto;*/ 150px auto 0 auto;
+        color: darkred;
+    }
+    
+    
+    #section1_main_detail{
+        width: /*500px*/ 400px;
+        height: 50px;
+       /* background-color: pink;*/
+        margin: 10px auto;
+        text-align: center;
+        color: white;
+        font-size:/*23px;*/ /*20px;*/ 18px;
+    }
+    
+    
+    
+    
+    
+    
+    
+
+    #container {
+        width: 1600px;
+        height: 100%;
+        /*        background-color: burlywood;*/
+        margin: 0 auto;
+
+    }
+
+
+    #section_2 {
+        width: 100%;
+        height: /*800px;*/  /*600px;*/  800px;
+        float: left;
+                /*background-color: aquamarine;*/
+        margin-bottom: 50px;
+    }
+
+
+    .container {
+        width: /*1200px;*/   /*960px;*/ 760px;
+        height: 100%;
+                /*background-color: gold;*/
+        margin: 0 auto;
+    }
+
+    #left_con2 {
+        width: /*590px;*/   /*460px;*/  240px;
+        height: /*100%;*/ 340px;
+        /*        background-color: green;*/
+        margin-right: 20px;
+        float: left;
+        overflow: hidden;
+    }
+
+    #left_con2_img {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding2.png);
+        background-size: 100% 100%;
+    }
+    
+
+    
+    
+    
+    
+    #left_hover_box1{
+        width:/*590px; */  /*460px;*/  240px;
+        line-height: /*40px;*/ 50px;
+        float: right;
+        margin-top:/* 750px;  */ /* 550px;*/  290px;
+        height: 50px;
+        background-color: rgba(0,0,0,0.5);
+        font-size: /*25px;*/  20px;
+        text-align: center;
+         transition-duration: 1s;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        
+    }
+    
+   
+    
+    #left_con2:hover>#left_con2_img{
+        background-image: url(../img/wedding/wedding2/1.png);
+        background-size: 100% 100%;
+        transition-duration: 1s;
+        
+    }
+    
+    
+    
+    
+    #left_con2:hover #left_hover_box1{
+        height: 350px;
+        margin-top: /*580px;*/ /*380px;*/  80px;
+        background-color: rgba(255,182,193,1);
+    }
+    
+    
+    
+    
+    #left_hover_detail1{
+        width: /*590px;*/ /*460px;*/ 240px;
+        height: 300px;
+        margin: /*20px auto;*/ 10px auto;
+        /*background-color: gold;*/
+        font-size: 15px;
+    }
+    
+    
+   
+     #left_hover_detail1>li:hover{
+        width: 100%;
+        background-color: lightcoral;
+    }
+ 
+
+
+    #right_con2 {
+        width: /*580px;*/  /*480px;*/ 500px;
+        height: /*100%;*/  340px;
+        /* background-color: aqua;*/
+        float: right;
+    }
+    
+    
+
+    #right_top {
+        width: 100%;
+        height: /*390px;*/  /*300px;*/ 340px;
+              /*  background-color: beige;*/
+        float: left;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    #right_top_img1 {
+        width: /*280px;*/ /* 230px;*/  240px;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding3.png);
+        background-size: 100% 100%;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    
+    #right_hover_box1{
+        width:/* 280px;*/ /* 230px;*/ 240px;
+        height: 50px;
+        background-color: rgba(0,0,0,0.5);
+        margin-top: /*350px;*/  290px;
+        font-size: 20px;
+        text-align: center;
+         transition-duration: 1s;
+        line-height: /*40px;*/  50px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    
+    
+    
+      #right_hover1_detail1{
+        width:/* 280px;*/ 240px;
+        height: 300px;
+        margin: 20px auto;
+        /*background-color: gold;*/
+        font-size: 15px;
+    }
+    
+    
+    
+
+    #right_top_img1:hover{
+        background-image: url(../img/wedding/wedding2/2.png);
+        background-size: 100% 100%;
+        transition-duration: 1s;
+    }
+    
+    
+    
+    
+    #right_top_img1:hover #right_hover_box1{
+        height: 350px;
+        margin-top: /*210px;*/  /*85px;*/ 125px;
+        background-color: rgba(255,182,193,1);
+    }
+    
+     #right_hover1_detail1>li:hover{
+        width: 100%;
+        background-color: lightcoral;
+    }
+    
+
+    #right_top_img2 {
+        width:/* 280px;*/  /*230px;*/  240px;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding4.png);
+        background-size: 100% 100%;
+        float: right;
+    }
+    
+    
+    
+    #right_hover_box2{
+        width: /*280px;*/  /*230px;*/ 240px;
+        height: 50px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        margin-top: /*350px;*/ /*250px;*/ 290px;
+        font-size: 20px;
+        text-align: center;
+        transition-duration: 1s;
+        line-height: /*40px;*/ 50px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+      #right_hover1_detail2{
+        width: /*280px;*/ /*230px;*/ 240px;
+        height: 300px;
+        margin: 20px auto;
+        /*background-color: gold;*/
+        font-size: 15px;
+    }
+    
+    
+    
+     #right_top_img2:hover{
+        background-image: url(../img/wedding/wedding2/3.png);
+            background-size: 100% 100%;
+        transition-duration: 1s;
+    }
+    
+    
+    #right_top_img2:hover #right_hover_box2{
+        height: /*250px;*/ /*300px;*/ 350px;
+        margin-top: /*170px;*/  /*35px;*/ 75px;
+        background-color: rgba(255,182,193,1);
+    }
+    
+    
+       #right_hover1_detail2>li:hover{
+        width: 100%;
+        background-color: lightcoral;
+    }
+    
+    
+    
+    
+
+    #right_bottom {
+        width: /*100%;*/ 760px;
+        height: /*390px;*/  /*280px;*/ 450px;
+        background-color: lightpink;
+        float: left;
+        position: relative;
+        right: 260px;
+        overflow: hidden;
+    }
+    
+
+    #right_bottom_img {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding5.png);
+        background-size: 100% 100%;
+    }
+    
+    
+    #right_hover_box3{
+        width: /*580px;*/ /* 480px;*/ 760px;
+        height: 50px;
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-align: center;
+         transition-duration: 1s;
+        line-height: 40px;
+        float: right;
+        margin-top:/*340px;*/ /* 230px;*/ 400px;
+    }
+    
+    #right_hover1_detail3{
+        
+        height: 300px;
+        margin: 20px auto;
+        /*background-color: gold;*/
+        font-size: 15px;
+    }
+    
+    
+    
+    #right_bottom_img:hover{
+        background-image: url(../img/wedding/wedding2/4.png);
+        background-size: 100% 100%;
+        transition-duration: 1s;
+    }
+    
+    
+    #right_bottom:hover #right_hover_box3{
+        height: 450px;
+        margin-top: /*250px;*/  /*140px;*/ 310px;
+        background-color: rgba(255,182,193,1);
+    }
+    
+    
+    
+    
+     
+    #right_hover1_detail3>li:hover{
+        width: 100%;
+        background-color: lightcoral;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+
+    /*section_2 end*/
+
+
+
+    #section_3 {
+        width: 100%;
+        height: /*800px;*/ /*600px;*/ 500px;
+        /*background-color: lightgreen;*/
+        float: left;
+        margin-bottom: 50px;
+    }
+
+
+    #con3_img {
+        width: /*1200px;*/ /*960px;*/  760px;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding6.png);
+        background-size: 100% 100%;
+    }
+    
+    
+    #con3_img>div{
+        color: white;
+        width: /*480px;*/ 350px;
+        height: 100px;
+        text-align: center;
+     /*   background-color: aquamarine;*/
+        float: right;
+        font-family: 'Bitter', serif;
+        line-height: 30px; 
+        position: relative;
+        top:65px;
+        right: 50px;
+        font-size: /*20px;*/ 18px;
+    }
+
+    
+    
+     #con3_img>p{
+        color: white;
+        /*float: right;*/
+        width: 300x;
+        height: 50px;
+        font-size: 13px;
+        position: absolute;
+        bottom:  0;
+        right: 50px;
+    }
+    
+    
+     #section_con5 {
+        width: 100%;
+        height: /*750px;*/ 850px;
+             /*   background-color: aquamarine;*/
+        float: left;
+        margin-bottom: 100px;
+    }
+    
+    
+     #sec4_con4_main_title{
+        width: 150px;
+        height: 60px;
+        /*background-color: aqua;*/
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+        margin: 0 auto;
+         font-family: 'Open Sans', sans-serif;
+    }
+    
+    
+    
+    
+    
+    
+
+    #section_4 {
+        width: 100%;
+        height: /*750px;*/ 650px;
+        /*        background-color: aquamarine;*/
+        float: left;
+        margin-bottom: 100px;
+    }
+
+    #left_con4 {
+        width: /*490px;*/ /*440px;*/ 240px;
+        height: /*100%;*/ 350px;
+        /*background-color: blue;*/
+        margin-right: 20px;
+        float: left;
+    }
+
+    #left_con4_img {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding7.png);
+        background-size: 100% 100%;
+    }
+
+    #right_con4 {
+        width: /*690px;*/ 500px;
+        height: /*750px;*/ 315px;
+        /*background-color: blueviolet;*/
+        float: right;
+        
+    }
+    
+    
+   
+    #right_con4_top{
+        width: /*690px;*/ 500px;
+        height: /*400px;*/  350px;
+     /* background-color: hotpink;*/
+        margin-bottom: 20px;
+    }
+    
+    
+    
+    #right_con4_top_img1{
+        width: /*335px;*/  240px;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding8.png);
+        background-position: center;
+        background-size: 100% 100%;
+        margin-right: 20px;
+        float: left;
+    }
+    
+    
+     
+    #right_con4_top_img2{
+        width: /*335px;*/ 240px;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding9.png);
+        background-size: 100% 100%;
+        float: right;
+    }
+    
+    
+    #right_con4_bottom1{
+        width: 240px;
+        height: 280px;
+       /* background-color: aquamarine;*/
+        margin-top: 20px;
+        
+    }
+    
+    
+    #right_con4_bottom_img1{
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding11.png);
+    }
+    
+    
+    
+    
+    #right_con4_bottom{
+        width: /*690px;*/ 500px;
+        height: /*330px;*/  280px;
+        background-color: coral;
+    }
+    
+    #right_con4_bottom_img{
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/wedding/weddeing1/wedding10.png);
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    #section_5{
+        width: 100%;
+        height: /*300px;*/ 550px;
+       /* background-color: palegreen;*/
+        float: left;
+        margin-bottom: 50px;
+    }
+    
+    #sec5_main_title{
+        width: 150px;
+        height: 60px;
+        /*background-color: aqua;*/
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+        margin: 0 auto;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    
+    
+    .sec5_circle{
+        width: /*224px;*/  225px;
+        height: /*224px;*/ 225px;
+        background-color: aliceblue;
+        margin-right: 20px;
+        float: left;
+        border-radius: 50%;
+    }
+    
+   /* .sec5_circle:last-child nth-chlid(4){
+        margin-right: 0;
+    }*/
+    
+    .sec5_circle:nth-child(5){
+        margin-right: 0;
+    }
+    
+    #sec5_img1{
+        background-image: url(../img/wedding/wedding3/1.png);
+        background-size: 100% 100%;
+    }
+    
+  
+    
+    #sec5_img2{
+        background-image: url(../img/wedding/wedding3/2.png);
+         background-size: 100% 100%;
+    }
+    
+    
+    #sec5_img3{
+        background-image: url(../img/wedding/wedding3/3.png);
+             background-size: 100% 100%;
+    }
+    
+    
+ 
+    
+    #sec5_img4{
+        background-image: url(../img/wedding/wedding3/4.png);
+         background-size: 100% 100%;
+        
+    }
+    
+    
+    #sec5_img5{
+        background-image: url(../img/wedding/wedding3/5.png);
+         background-size: 100% 100%;
+        /*display: none;*/
+    }
+    
+    
+
+    #sec5_img1:hover{
+        background-image: url(../img/wedding/wedding3/6.png);
+         background-size: 100% 100%;
+        transition-duration: 1s;
+    }
+    
+    #sec5_img2:hover{
+        background-image: url(../img/wedding/wedding3/7.png);
+         background-size: 100% 100%;
+        transition-duration: 1s;
+    }
+    
+    
+    #sec5_img3:hover{
+        background-image: url(../img/wedding/wedding3/8.png);
+         background-size: 100% 100%;
+        transition-duration: 1s;
+    }
+    
+    #sec5_img4:hover{
+        background-image: url(../img/wedding/wedding3/9.png);
+         background-size: 100% 100%;
+        transition-duration: 1s;
+    }
+    
+   
+    #sec5_img5:hover{
+        background-image: url(../img/wedding/wedding3/10.png);
+         background-size: 100% 100%;
+        transition-duration: 1s;
+       /* display: none;*/
+    }
+    
+    
+    
+    .sec5_circle_title{
+        width: 150px;
+        height: 230px;
+        margin: 0 auto;
+        /*background-color: palegoldenrod;*/
+        text-align: center;
+        line-height: 230px;
+        font-size: 20px;
+        color: white;
+        display: none;
+    }
+    
+    #sec5_con4{
+        width: 150px;
+        height: 230px;
+        margin: 100px auto;
+      /*  background-color: aqua;*/
+        text-align: center;
+        line-height: 20px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    
+    #sec5_con1, #sec5_con2, #sec5_con3, #sec5_con5{
+        color: white;
+    } 
+    
+    
+    
+    .sec5_circle:hover .sec5_circle_title{
+        display: block;
+    }
+    
+    
+    #con5_text{
+        width: 150px;
+        height: 50px;
+       /* background-color: lightyellow;*/
+        text-align: center;
+        font-weight: 900;
+        line-height: 50px;
+        float: right;
+        position: relative;
+        right: 110px;
+        display: none;
+    }
+    
+    
+    
+    
+
+    #con4_text {
+        width: 150px;
+        height: 80px;
+              /*  background-color: lightyellow;*/
+        font-size: 18px;
+        float: right; 
+        position: relative;
+        right: -500px;
+        line-height: 80px;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    /*sesction_4 end*/
+
+    footer {
+        width: 100%;
+        height: 100px;
+                background-color: indianred;
+        float: left;
+    }
+
+    #in_footer {
+        width: /*1200px;*/ /*960px;*/   760px;
+        height: 100%;
+        /*        background-color: lightgray;*/
+        margin: 0 auto;
+    }
+
+    #footer_detail {
+        width: 550px;
+        height: 100%;
+        /*        background-color: aquamarine;*/
+        line-height: 100px;
+        color: white;
+    }
+
+
+
+    .section_con {
+        display: none;
+    }
+
+    #sec1_con_wrap {
+        display: block;
+    }
+
+
+    .on {
+        color: darkred;
+    }
+
+
+
+  
+
+    #section_con1 {
+        width: 100%;
+        height: /*500px;*/ 400px;
+       /* background-color: lightpink;*/
+        float: left;
+        margin-bottom: /*70px;*/ 60px;
+    }
+
+
+    .container2 {
+        width: /*1200px;*/  /*960px;*/  760px;
+        height: 100%;
+       /* background-color: lightgoldenrodyellow;*/
+        margin: 0 auto;
+    }
+
+    #jewelry_title {
+        width: 250px;
+        height: 80px;
+        /*background-color: lightcoral;*/
+        font-size: 30px;
+        line-height: 80px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+    #sec2_jew_left {
+        width: /*600px;*/  /*480px;*/  380px;
+        height: /*420px;*/  350px;
+        background-color: coral;
+        float: left;
+    }
+
+
+    #jew_img1 {
+        width: 100%;
+        height: 100%;
+        background-image: url(../img/jewelry/jewelry1/jew1.png);
+        background-size: 100% 100%;
+        border: 1px solid lightgray;
+    }
+
+    #sec2_jew_right {
+        width:/* 600px;*/  /*480px;*/  330px;
+        height: /*420px;*/ 350px;
+        background-color: white;
+        float: right;
+    }
+
+    
+    #jew_img2{
+        width: /*250px;*/ 150px;
+        height: /*250px;*/  150px;
+        background-image: url(../img/jewelry/jewelry1/jew9.png);
+        background-size: 100% 100%;
+        /*background-color: cadetblue;*/
+        margin: /*20px*/  50px auto 0 auto;
+    }
+    
+    
+    
+    
+    #jew_add_title{
+        width: 150px;
+        height: 50px;
+       /* background-color: gold;*/
+        margin: 0 auto;
+        text-align: center;
+        font-size: /*20px;*/ 15px;
+    }
+    
+    
+    
+    
+    #jew_add_title i{
+        color: darkred;
+    }
+    
+    
+    
+    
+    #jew_add_detail{
+        width: 150px;
+        height: 50px;
+     /*   background-color:purple;*/
+        text-align: center;
+        margin: 0px auto;
+        border: 1px solid darkred;
+        line-height: 50px;
+         transition-duration: 1s;
+        font-size: 15px;
+        display: none;
+    }
+    
+    
+    
+    
+      
+     #sec2_jew_right:hover #jew_add_detail{
+        display: block;
+        transition-duration: 1s;
+    }
+    
+    #sec2_jew_right:hover #jew_add_title{
+        display: none;
+        transition-duration: 1s;
+    }
+    
+    
+    
+    
+    
+    
+ 
+    
+    
+
+    /*section_con1 end*/
+
+
+
+    #section_con2 {
+        width: 100%;
+        height: /*400px;*/  250px;
+        /*background-color: cornflowerblue;*/
+        float: left;
+        margin-bottom: 100px;
+    }
+
+
+
+    .jew_con1 {
+        width:/* 390px;*/ /* 310px;*/  243.333px;
+        height:/* 400px;*/  250px;
+       /* background-color: lightgray;*/
+        float: left;
+        margin-right: 15px;
+    }
+
+    .jew_con1:nth-child(3) {
+        margin-right: 0;
+    }
+
+
+
+
+
+
+    #jew_img3 {
+        width: 100%;
+        height: /*300px;*/  180px;
+        background-image: url(../img/jewelry/jewelry1/jew2.png);
+         border: 1px solid lightgray;
+        background-size: 100% 100%;
+        float: left;
+    }
+
+
+
+    .jew_box {
+        width: /*390px;*/  /*310px;*/  243.333px;
+        height: 0;
+        background-color: white;
+        margin-top:/* 300px;*/  180px;
+        text-align: center;
+        line-height: 0;
+        transition-duration: 0.5s;
+        overflow: hidden;.
+
+    }
+
+
+
+
+
+    #jew_img3:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/ 130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    .jew_box p {
+        display: none;
+    }
+
+    #jew_img3:hover p {
+        display: block;
+    }
+
+
+   /* .jew_main_wrap {
+        width: 150px;
+        height: 60px;
+        background-color: blue;
+        margin: 50px auto;
+        text-align: center;
+    }*/
+    
+     .jew_detail1{
+        width: /*390px;*/ /*310px;*/  243.333px;
+        height: 60px;
+        background-color: gold;
+        text-align: center;
+        line-height: 60px;
+    }
+    
+    .jew_detail2{
+        width: /*390px;*/ /*310px;*/  243.333px;
+        height: /*100px;*/ 95px;
+        text-align: center;
+        line-height:/* 100px;*/  95px;
+    }
+
+
+
+    #jew_img4 {
+        width: 100%;
+        height:/* 300px;*/  180px;
+        background-image: url(../img/jewelry/jewelry1/jew3.png);
+         border: 1px solid lightgray;
+        background-size: 100% 100%;
+        background-position: center;
+        float: left;
+    }
+
+
+
+
+    #jew_img4:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/  130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img4:hover p {
+        display: block;
+    }
+
+
+
+
+
+
+    #jew_img5 {
+        width: 100%;
+        height: /*300px;*/  180px;
+        background-image: url(../img/jewelry/jewelry1/jew4.png);
+         border: 1px solid lightgray;
+        background-size: 100% 100%;
+        background-position: center;
+        float: left;
+    }
+
+
+
+
+    #jew_img5:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/ 130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img5:hover p {
+        display: block;
+    }
+
+
+
+
+
+
+    /*section_con2 end*/
+
+
+    #section_con3 {
+        width: 100%;
+        height: /*400px;*/  250px;
+        /*background-color: cornflowerblue;*/
+        float: left;
+        margin-bottom: 100px;
+    }
+
+
+
+
+
+
+
+    #jew_img6 {
+        width: 100%;
+        height: /*300px;*/  180px;
+        background-image: url(../img/jewelry/jewelry1/jew8.png);
+         border: 1px solid lightgray;
+        background-size: 100% 100%;
+        background-position: center;
+        float: left;
+    }
+
+
+
+    #jew_img6:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/  130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img6:hover p {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    #jew_img7 {
+        width: 100%;
+        height: /*300px;*/ 180px;
+        background-image: url(../img/jewelry/jewelry1/jew6.png);
+         border: 1px solid lightgray;
+        background-size: 100% 100%;
+        background-position: center;
+        float: left;
+    }
+
+
+
+
+    #jew_img7:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/  130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img7:hover p {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+    #jew_img8 {
+        width: 100%;
+        height: /*300px;*/  180px;
+        background-image: url(../img/jewelry/jewelry1/jew7.png);
+         border: 1px solid lightgray;
+        background-size: 100% 100%;
+        background-position: center;
+        float: left;
+    }
+
+
+
+    #jew_img8:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/ 130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img8:hover p {
+        display: block;
+    }
+
+
+    
+      
+    #jew_img9{
+        width:100%;
+        height: /*300px;*/ 180px;
+        background-image: url(../img/jewelry/jewelry1/jew10.png);
+        background-size: 100% 100%;
+         border: 1px solid lightgray;
+        background-position: center;
+        float: left;
+        
+    }
+    
+    #jew_img9:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/ 130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img9:hover p {
+        display: block;
+    }
+    
+    
+    
+   #jew_img10{
+        width:100%;
+        height: /*300px;*/ 180px;
+        background-image: url(../img/jewelry/jewelry1/jew11.png);
+        border: 1px solid lightgray;
+        background-size: 100% 100%;
+        background-position: center;
+        float: left;
+        
+        
+    }
+    
+    #jew_img10:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/ 130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img10:hover p {
+        display: block;
+    }
+    
+    
+    #jew_img11{
+        width:100%;
+        height: /*300px;*/ 180px;
+        background-image: url(../img/jewelry/jewelry1/jew12.png);
+        background-size: 100% 100%;
+         border: 1px solid lightgray;
+        background-position: center;
+        float: left;
+        
+        
+    }
+    
+    
+
+    #jew_img11:hover > .jew_box {
+        height: 50px;
+        margin-top: /*250px;*/ 130px;
+        line-height: 50px;
+        display: block;
+    }
+
+
+
+    #jew_img11:hover p {
+        display: block;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    /*sec2_con_wrap end*/
+
+
+
+    #section3_con3 {
+        width: 100%;
+        height: 1200px;
+       /* background-color: lightpink;*/
+        float: left;
+        margin-bottom: 80px;
+    }
+
+
+
+
+
+
+    #about_top_left {
+        width: 50%;
+        height: 600px;
+        background-color: lightgray;
+        float: left;
+    }
+
+
+
+
+    #about_top_detail1 {
+        width: /*550px;*/  /*450px;*/  350px;
+        height: 350px;
+       /* background-color: aquamarine;*/
+        margin: /*120px*/  90px auto;
+        text-align: center;
+
+    }
+
+    .about_main_title {
+        width: 350px;
+        height: 50px;
+        /*   background-color: blueviolet;*/
+        margin: 0 auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    
+     .about_con_box1 {
+        width: 20px;
+        height: 8px;
+        background-color: white;
+        margin: 0 auto 30px auto;
+    }
+
+    .about_con_box {
+        width: 20px;
+        height: 8px;
+        background-color: white;
+        margin: 0 auto 30px auto;
+    }
+
+
+    
+
+    .about_detail {
+        margin-bottom: 50px;
+        font-family: 'Nunito', sans-serif;
+    }
+    
+
+
+    #about_top_right {
+        width: 100%;
+        height: 600px;
+        background-image: url(../img/about/about1/4.png);
+        background-attachment: fixed;
+         background-position: center;
+        background-size:cover;
+        float: right;
+
+    }
+
+    /*about_top_end*/
+
+
+    #about_bottom_left {
+        width: 100%;
+        height: 600px;
+        background-image: url(../img/about/about1/3.png);
+        background-attachment: fixed;
+         background-position: center;
+        background-size:cover;
+        float: left;
+    }
+
+    #about_bottom_right {
+        width: 50%;
+        height: 600px;
+        background-color: lightgray;
+        float: right;
+    }
+
+
+
+    #about_bottom_detail1 {
+        width: /*550px;*/ /*450px;*/  350px;
+        height: 350px;
+       /* background-color: aquamarine;*/
+        margin: /*120px*/  90px auto;
+        text-align: center;
+    }
+
+
+#mo_about_top_wrap{
+        display: none;
+    }
+
+
+    #mo_about_bottom_wrap{
+        display: none;
+    }
+
+
+
+
+
+    #section_con4 {
+        width: 100%;
+        height:/* 1480px;*/ 300px;
+       /* background-color: cornflowerblue;*/
+        float: left;
+        margin-bottom: /*100px;*/ 50px;
+    }
+
+
+
+
+    #sec4_con4_main {
+        width: /*1200px;*/ /* 960px;*/  760px;
+        height:/* 600px;*/  /*550px;*/ 450px;
+        background-image: url(../img/album/1.png);
+        background-size: 100% 100%;
+    }
+
+    
+     #line_header2 {
+        width: 100%;
+        height: /*150px;*/ 75px;
+        border-bottom: 1px solid lightgray;
+    }
+
+
+   
+    #sec4_con4_title {
+        width: /*1200px;*/  /*960px;*/ 760px;
+        height: 50px;
+      /*  background-color: purple;*/
+        margin: 0px auto;
+        line-height: 50px;
+        font-family: 'Great Vibes', cursive;
+
+    }
+
+    #sec4_con4_title > div {
+        width: 500px;
+        height: 120px;
+        /*background-color: gold;*/
+        margin: 20px auto;
+        text-align: center;
+        font-size: 55px;
+    }
+
+    
+     #con4_detail_wrap{
+        width: 380px;
+        height: 400px;
+       /* background-color: beige;*/
+          font-size: 20px;
+       font-family: 'Andika New Basic', sans-serif;
+        margin: 45px auto 0 auto;
+    }
+    .sec4_detail1 {
+        width: /*1200px;*/  /*960px;*/ 760px;
+        height: 200px;
+        /*background-color: coral;*/
+        float: left;
+        font-size: 25px;
+        line-height: 200px;
+        
+    }
+
+    .book {
+        width: 150px;
+        height: 80px;
+        background-color: black;
+        float: right;
+        color: white;
+        line-height: 80px;
+        position: relative;
+        right: 20px;
+        bottom: 130px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+
+ #top_btn{
+        width: 50px;
+        height: 50px;
+        background-image:url(../img/footer/1.png);
+        position: fixed;
+        bottom: 50px;
+        right: /*50px;*/ 40px;
+        text-align: center;
+        font:  25px/50px '';
+        border-radius: 50%;
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*end*/

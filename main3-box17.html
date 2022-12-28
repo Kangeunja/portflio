@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+
+  
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  img {
+    display: block;
+    border: 0;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  @font-face {
+    font-family: 'Tenada';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  #main {
+    width: 1200px;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #main-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tenada';
+    color: rgb(230, 140, 62);
+    font-style: italic;
+  }
+
+  #main-text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'GmarketSansMedium';
+    font-style: normal;
+  }
+
+  #main-text-wrap {
+    width: 100%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    margin-bottom: 30px;
+  }
+
+  .main-text-ex {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(230, 140, 62);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'GmarketSansMedium';
+    float: left;
+    margin-right: 20px;
+  }
+
+  .main-text-ex2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'GmarketSansMedium';
+  }
+
+  
+  #box-top6 {
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-top6.png);
+    margin-bottom: 20px;
+  }
+
+  #box-middle21{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle21.png);
+    margin-bottom: 20px;
+  }
+
+  #box-middle22{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle22.png);
+    margin-bottom: 20px;
+  }
+
+
+  #box-middle23{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle23.png);
+    margin-bottom: 20px;
+  }
+
+  
+  #sub {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: blue; */
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #sub-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #sub-text2,
+  #sub-text3 {
+    text-align: right;
+    font-size: 15px;
+  }
+
+  #box-middle24{
+    width: 100%;
+    height: 850px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle24.png);
+    margin-bottom: 50px;
+  }
+
+  #box-middle25{
+    width: 100%;
+    height: 850px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle25.png);
+    margin-bottom: 50px;
+  }
+
+
+  #box-middle26{
+    width: 100%;
+    height: 850px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle26.png);
+    margin-bottom: 50px;
+  }
+
+  #box-bottom6{
+    width: 100%;
+    height: 850px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-bottom6.png);
+    margin-bottom: 50px;
+  }
+
+  
+  #back{
+  width: 150px;
+  height: 50px;
+  /* background-color: yellow; */
+  border: 1px solid rgb(166, 166, 166);
+  line-height: 50px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#back:hover{
+  border: none;
+  background-color: rgb(166, 166, 166);
+  color: white;
+}
+
+
+</style>
+
+<body>
+  
+  <div id="main">
+    <div id="main-text">
+      세계음식잡지
+      <p>
+        개인프로젝트&ensp;|&ensp; 참여도: 100% &ensp;|&ensp;응용프로그램 : Indd
+      </p>
+    </div>
+
+    <div id="main-text-wrap">
+      <div class="main-text-ex">설명</div>
+      <div class="main-text-ex2">
+        세계각국의 음식을 잡지디자인 컨셉으로 제작했습니다. 각 페이지의 서울,
+        도쿄, 상하이, 타이베이의 음식들을 가격과 이미지를 첨부해 제작하였고
+        주색깔로 노랑색, 녹색, 빨간색을 사용하였습니다.  
+      </div>
+    </div>
+
+    <div id="box-top6"></div>
+    <div id="box-middle21"></div>
+    <div id="box-middle22"></div>
+    <div id="box-middle23"></div>
+  </div>
+
+  <div id="sub">
+    <div id="sub-text">
+      <h2>original</h2>
+    </div>
+    <div id="sub-text2">4/1</div>
+    <div id="box-middle24"></div>
+    <div id="sub-text2">4/2</div>
+    <div id="box-middle25"></div>
+    <div id="sub-text2">4/3</div>
+    <div id="box-middle26"></div>
+    <div id="sub-text2">4/4</div>
+    <div id="box-bottom6"></div>
+  </div>
+
+  <a id="back" href="#">이전으로 돌아가기</a>
+
+</body>
+</html>

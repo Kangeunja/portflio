@@ -1,0 +1,363 @@
+@media all and (min-width:1200px) {
+
+
+
+  #wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(2, 88, 56, 1);
+    float: left;
+  }
+
+
+
+  #logo_wrap {
+    width: 150px;
+    height: 70px;
+    /*background-color: white;*/
+    margin: 25px 50px;
+    float: left;
+  }
+
+  #logo {
+    width: 150px;
+    height: 35px;
+    background-image: url(../img/main/logo.png);
+    background-size: 100% 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+
+
+  #bottom_logo {
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+    color: rgba(239, 78, 56, 1);
+    font-weight: 900;
+  }
+
+  /*logo_wrap end*/
+
+
+
+
+  #side_menu_1 {
+    width: 650px;
+    height: 50px;
+    /* background-color: lightpink; */
+    float: right;
+    margin: 25px 50px;
+  }
+
+  #side_menu_1>li {
+    width: 110px;
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(239, 78, 56, 1);
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 25px;
+  }
+
+  #side_menu_1>li:last-child {
+    margin-right: 0;
+  }
+
+  #side_menu_1>li a {
+    color: rgba(239, 78, 56, 1);
+  }
+
+  /*side_menu end*/
+
+
+
+  #mo_side_wrap {
+    display: none;
+  }
+
+
+
+
+
+  /*header end*/
+
+
+
+
+
+
+
+
+
+  #section_1 {
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+
+
+
+  #container {
+    width: 1200px;
+    height: auto;
+    /*  background-color: lightgray;*/
+    margin: 0 auto;
+  }
+
+
+
+  #shop_title_box {
+    width: 50px;
+    height: 5px;
+    background-color: darkred;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  @font-face {
+    font-family: 'EliceDigitalBaeum-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_elice@1.0/EliceDigitalBaeum-Bd.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+  #shop_main_title {
+    width: 200px;
+    height: 50px;
+    /* background-color: blueviolet;*/
+    margin: 10px auto 100px auto;
+    line-height: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: darkred;
+    font-family: 'EliceDigitalBaeum-Bd';
+  }
+
+
+  #shop_top_total_wrap ,
+  #shop_middle_total_wrap,
+  #shop_bottom_total_wrap{
+    width: 1200px;
+    height: 363px;
+    /* background-color: aqua; */
+    margin-bottom: 150px;
+  }
+
+
+  .shop_top_img_wrap ,
+  .shop_middle_img_wrap,
+  .shop_bottom_img_wrap{
+    width: 280px;
+    height: 363px;
+    /* background-color: rgb(236, 177, 177); */
+    margin-right: 26px;
+    float: left;
+  }
+
+
+  .shop_top_img_wrap:last-child ,
+  .shop_middle_img_wrap:last-child,
+  .shop_bottom_img_wrap:last-child{
+    margin-right: 0;
+  }
+
+
+  .shop_top_img ,
+  .shop_middle_img,
+  .shop_bottom_img{
+    width: 100%;
+    height: 257.89px;
+    /* background-color: palegoldenrod; */
+    margin-bottom: 40px;
+  }
+
+
+  .shop_top_title,
+  .shop_middle_title,
+  .shop_bottom_title {
+    width: 100%;
+    height: 30px;
+    /* background-color: lightblue; */
+    text-align: center;
+    line-height: 30px;
+    color: darkred;
+    border-bottom: 1px solid darkred;
+    font-weight: 900;
+    font-size: 15px;
+  }
+
+
+  .shop_price {
+    width: 100%;
+    height: 32px;
+    /* background-color: rgb(80, 235, 50); */
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+    color: #8B0000;
+  }
+
+
+  .shop_box {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    bottom: 0;
+    height: 0;
+    text-align: center;
+    line-height: 50px;
+    transition-duration: 0.5s;
+    overflow: hidden;
+  }
+
+
+  .shop_box>a {
+    color: white;
+  }
+
+
+  .shop_top_img:hover>.shop_box,
+  .shop_middle_img:hover>.shop_box,
+  .shop_bottom_img:hover>.shop_box{
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    bottom: 50px;
+    cursor: pointer;
+  }
+
+
+  .shop_top_img,
+  .shop_middle_img,
+  .shop_bottom_img{
+    transition: all .3s;
+    overflow: hidden;
+  }
+
+
+  .shop_top_img:hover img,
+  .shop_middle_img:hover img,
+  .shop_bottom_img:hover img{
+    transform: scale(1.1);
+    opacity: 60%;
+  }
+
+
+
+
+  .shop_bottom_img_wrap:last-child {
+    margin-right: 0;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    width: 100%;
+    height: 150px;
+    background-color: darkgreen;
+    float: left;
+  }
+
+  #footer_logo_wrap {
+    width: 150px;
+    height: 70px;
+    /* background-color: #DB9A96; */
+    float: left;
+    margin: 40px 50px;
+  }
+
+  #footer_logo_img {
+    width: 150px;
+    height: 35px;
+    background-image: url(../img/footer/footer_logo_img.png);
+    background-size: 100% 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+
+  #in_footer {
+    width: 1200px;
+    height: 50px;
+    margin: 50px auto 0 auto;
+    /*background-color: antiquewhite;*/
+    color: white;
+    font-size: 15px;
+
+    /*    line-height: 150px;*/
+
+  }
+
+
+  #footer_logo {
+    width: 70px;
+    height: 50px;
+    float: right;
+    /*background-color: beige;*/
+    position: relative;
+    bottom: 30px;
+  }
+
+
+  #logo1 {
+    width: 30px;
+    height: 30px;
+    float: left;
+  }
+
+  #logo2 {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/footer/2.png);
+    float: right;
+  }
+
+
+
+
+
+
+  #top_btn {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/footer/top_btn.png);
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+/*end*/

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  img {
+    display: block;
+    border: 0;
+  }
+
+  ul,
+  li {
+    list-style: none;
+  }
+
+  @font-face {
+    font-family: 'Tenada';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Tenada.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  #main {
+    width: 1200px;
+    height: auto;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #main-text {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Tenada';
+    color: rgb(203, 206, 0);
+    font-style: italic;
+  }
+
+  #main-text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: 'GmarketSansMedium';
+    font-style: normal;
+  }
+
+  #main-text-wrap {
+    width: 100%;
+    height: 50px;
+    /* background-color: yellowgreen; */
+    margin-bottom: 30px;
+  }
+
+  .main-text-ex {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(203, 206, 0);
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'GmarketSansMedium';
+    float: left;
+    margin-right: 20px;
+  }
+
+  .main-text-ex2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'GmarketSansMedium';
+  }
+
+  #box-top15 {
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-top15.png);
+    margin-bottom: 20px;
+  }
+  
+
+  #box-middle54{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle54.png);
+    margin-bottom: 20px;
+  }
+
+
+  #box-middle55{
+    width: 100%;
+    height: 700px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-middle55.png);
+    margin-bottom: 20px;
+  }
+
+  #sub {
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: blue; */
+    padding-top: 50px;
+    box-sizing: border-box;
+  }
+
+  #sub-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #sub-text2 {
+    text-align: right;
+    font-size: 15px;
+  }
+
+  #box-bottom12 {
+    width: 100%;
+    height: 825px;
+    /* background-color: bisque; */
+    background-image: url(./img/design/box-bottom12.png);
+    margin-bottom: 50px;
+  }
+
+  #back {
+    width: 150px;
+    height: 50px;
+    /* background-color: yellow; */
+    border: 1px solid rgb(166, 166, 166);
+    line-height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #back:hover {
+    border: none;
+    background-color: rgb(166, 166, 166);
+    color: white;
+  }
+
+
+</style>
+
+<body>
+
+  <div id="main">
+    <div id="main-text">
+      화재발생시 대피요령
+      <p>
+        개인프로젝트&ensp;|&ensp; 참여도: 100% &ensp;|&ensp;응용프로그램 : ps
+      </p>
+    </div>
+
+    <div id="main-text-wrap">
+      <div class="main-text-ex">설명</div>
+      <div class="main-text-ex2">
+        화재발생시 대피요령을 간략하게 만든 단순 포스터디자인으로,
+        주색상은 노란색을 사용했습니다.
+      </div>
+    </div>
+
+    <div id="box-top15"></div>
+    <div id="box-middle54"></div>
+    <div id="box-middle55"></div>
+  </div>
+
+  
+  <div id="sub">
+    <div id="sub-text">
+      <h2>original</h2>
+    </div>
+    <div id="sub-text2">전체(All)</div>
+    <div id="box-bottom12"></div>
+  </div>
+
+  <a id="back" href="#">이전으로 돌아가기</a>
+  
+</body>
+</html>

@@ -1,0 +1,341 @@
+@media all and (min-width:1200px) {
+
+
+  #wrap {
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  header {
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: rgba(2, 88, 56, 1);
+  }
+
+
+  #logo_wrap {
+    width: 150px;
+    height: 70px;
+    /*background-color: white;*/
+    margin: 25px 50px;
+    float: left;
+  }
+
+  #logo {
+    width: 150px;
+    height: 35px;
+    background-image: url(../img/main/logo.png);
+    background-size: 100% 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+
+
+  #bottom_logo {
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    color: rgba(239, 78, 56, 1);
+    font-weight: 900;
+  }
+
+  /*logo_wrap end*/
+
+
+  #side_menu_1 {
+    width: 650px;
+    height: 50px;
+    /* background-color: lightpink; */
+    float: right;
+    margin: 25px 50px;
+  }
+
+  #side_menu_1>li {
+    width: 110px;
+    height: 100%;
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: rgba(239, 78, 56, 1);
+    font-weight: 900;
+    font-size: 20px;
+    margin-right: 25px;
+  }
+
+  #side_menu_1>li:last-child {
+    margin-right: 0;
+  }
+
+  #side_menu_1>li a {
+    color: rgba(239, 78, 56, 1);
+  }
+
+  /*side_menu end*/
+
+
+  #mo_side_wrap {
+    display: none;
+  }
+
+
+  /*header end*/
+
+
+  #section_1 {
+    width: 100%;
+    height: auto;
+    float: left;
+  }
+
+
+  
+  #container {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: aquamarine;*/
+  }
+  
+
+  @font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+  
+  #program3_main_title {
+    width: 1200px;
+    height: 60px;
+    /*background-color: lightblue;*/
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 50px;
+    margin-bottom: 67px;
+    color: orangered;
+    text-align: center;
+    font-family: 'GmarketSansMedium';
+  }
+
+  #pro_map{
+    width : 1200px;
+    height: 431px;
+    margin-bottom: 131px;
+  }
+
+  #pro_map iframe{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
+  
+  #sec1_box{
+    width: 1200px;
+    height: 200px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    margin-bottom: 160px;
+  }
+
+  #sec1_left{
+    width: 512px;
+    height: 200px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-right: 176px;
+  }
+
+  .sec1_con{
+    width: 512px;
+    height: 40px;
+    /* background-color: rgb(213, 213, 234); */
+    margin-bottom: 40px;
+  }
+
+  #sec1_right{
+    width: 512px;
+    height: 200px;
+    /* background-color: rgb(0, 214, 214); */
+    float: left;
+  }
+
+  .sec1_icon{
+    width: 40px;
+    height: 40px;
+    /* background-color: aquamarine; */
+    margin-right: 25px;
+    float: left;
+  }
+
+  .sec1_sub_title{
+    width: 36px;
+    height: 23px;
+    /* background-color: rgb(235, 141, 141); */
+    color: #EF4E38;
+    font-size: 18px;
+    float: left;
+    margin-top: 8.5px;
+    margin-right: 25px;
+    font-weight: 900;
+  }
+
+  .sec1_sub_title2{
+    width: 72px;
+  }
+
+  #sec1_sub_title3{
+    width: 100px;
+  }
+
+  .sec1_sub_line{
+    width: 10px;
+    height: 27px;
+    /* background-color:#6d6d6d; */
+    float: left;
+    margin-top: 6.5px;
+    border-left: 1px solid #D4C8C8;
+    margin-right: 18px;
+  }
+
+  .sec1_sub_ex{
+    width: 310px;
+    height: 23px;
+    /* background-color: #EF4E38; */
+    float: left;
+    margin-top: 8.5px;
+    font-size: 17px;
+  }
+
+  #sec1_sub_ex2{
+    width: 270px;
+  }
+
+  #sec1_sub_ex3{
+    width: 240px;
+  }
+
+  #sec1_sub_ex4{
+    width: 100px;
+  }
+ 
+  #sec1_sub_ex5{
+    width: 180px;
+  }
+
+  #sec1_sub_ex6{
+    width: 140px;
+  }
+ 
+  #sec1_icon1{
+    background-image: url(../img/information/info_icon1.png);
+  }
+
+   
+  #sec1_icon2{
+    background-image: url(../img/information/info_icon2.png);
+  }
+   
+  #sec1_icon3{
+    background-image: url(../img/information/info_icon3.png);
+  }
+   
+  #sec1_icon4{
+    background-image: url(../img/information/info_icon4.png);
+  }
+   
+  #sec1_icon5{
+    background-image: url(../img/information/info_icon5.png);
+  } 
+
+  #sec1_icon6{
+    background-image: url(../img/information/info_icon6.png);
+  }
+
+
+
+
+
+
+
+
+  /*section_1 end*/
+
+  footer {
+    width: 100%;
+    height: 150px;
+    background-color: darkgreen;
+    float: left;
+  }
+
+
+  #footer_logo_wrap {
+    width: 150px;
+    height: 70px;
+    /* background-color: #DB9A96; */
+    float: left;
+    margin: 40px 50px;
+  }
+
+  #footer_logo_img {
+    width: 150px;
+    height: 35px;
+    background-image: url(../img/footer/footer_logo_img.png);
+    background-size: 100% 100%;
+    margin-bottom: 8px;
+    cursor: pointer;
+  }
+
+
+  #in_footer {
+    width: 1200px;
+    height: 50px;
+    margin: 50px auto 0 auto;
+    /*background-color: antiquewhite;*/
+    color: white;
+    font-size: 15px;
+
+    /*    line-height: 150px;*/
+
+  }
+
+
+  #footer_logo {
+    width: 70px;
+    height: 50px;
+    float: right;
+    /*background-color: beige;*/
+    position: relative;
+    bottom: 30px;
+  }
+
+
+  #logo1 {
+    width: 30px;
+    height: 30px;
+    float: left;
+  }
+
+  #logo2 {
+    width: 30px;
+    height: 30px;
+    float: right;
+  }
+
+
+
+
+
+
+
+
+
+
+}
+
+/*end*/
