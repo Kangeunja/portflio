@@ -520,7 +520,7 @@ li {
 #sub-left{
   width: 576px;
   height: 870px;
-  /* background-color: palegoldenrod; */
+  background-color: rgb(255, 255, 255);
   float: left;
   padding-top: 94px;
   box-sizing: border-box;
@@ -537,7 +537,8 @@ li {
 #sub-img{
   width: 376px;
   height: 376px;
-  background-color: aqua;
+  /* background-color: rgb(159, 159, 159); */
+  background-image: url(../img/sub/sub-img.png);
   margin-left: 100px;
   margin-top: 50px;
 }
@@ -546,9 +547,9 @@ li {
 #sub-line{
   width: 376px;
   height:2px;
-  background-color: lightgray;
+  background-color: #cacaca;
   margin-left: 100px;
-  margin-top: 80px;
+  margin-top: 31px;
 }
 
 #sub-pdf{
@@ -573,7 +574,7 @@ li {
 #sub-center{
   width: 507px;
   height: 870px;
-  /* background-color: rgb(138, 98, 50); */
+  background-color: rgb(242, 219, 190);
   float: left;
 }  
 
@@ -766,12 +767,13 @@ li {
 .sub-in-box{
   width:15px;
   height:50px;
-  background-color:rgb(234, 171, 171);
+  background-color:rgb(130 84 84 / 1);
   text-align:center;
   line-height:100px;
   transition-duration:1s;
   float: left;
   margin-top: 6.75px;
+  margin-left: 10px;
 }
 
 
