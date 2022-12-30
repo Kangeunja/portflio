@@ -534,11 +534,11 @@ li {
   text-align: center;
 }
 
-#sub-img{
+#sub-img-me{
   width: 376px;
   height: 376px;
   /* background-color: rgb(159, 159, 159); */
-  background-image: url(../img/sub/sub-img.png);
+  background-image: url(../img/sub/sub-img-me.png);
   margin-left: 100px;
   margin-top: 50px;
 }
