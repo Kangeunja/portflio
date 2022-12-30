@@ -240,6 +240,55 @@ li {
 }
 
 
+#sub-phone-wrap{
+  width: 331px;
+  height: 311px;
+  background-image: url(../img/sub/phone_wrap_to.png);
+  position: absolute;
+  bottom:50px;
+  right: 30px;
+}
+
+#sub-phone-wrap2{
+  width: 331px;
+  height: 311px;
+  background-image: url(../img/sub/phone_wrap.png);
+  position: absolute;
+  bottom:50px;
+  right: 30px;
+  display: none;
+}
+
+
+#p0_to{
+  width: 270px;
+  height: 45px;
+  background-image: url(../img/sub/p0_to.png);
+  position: absolute;
+  top: 70px;
+  left: 57px;
+}
+
+#p0_to:hover{
+  background-image: url(../img/sub/p0_to_hover.png);
+  cursor: pointer;
+}
+
+
+#p0{
+  width: 270px;
+  height: 45px;
+  background-image: url(../img/sub/p0.png);
+  position: absolute;
+  top: 70px;
+  left: 57px;
+}
+
+#p0:hover{
+  background-image: url(../img/sub/p0_hover.png);
+  cursor: pointer;
+}
+
 
 #sub-phone{
   width: 331px;
@@ -249,6 +298,7 @@ li {
   position: absolute;
   bottom:50px;
   right: 30px;
+  display: none;
 }
 
 @font-face {
@@ -256,6 +306,20 @@ li {
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+}
+
+#phone_prev{
+  width: 19px;
+  height: 22px;
+  background-image: url(../img/sub/phone_prev.png);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+#phone_prev:hover{
+  background-image: url(../img/sub/phone_prev_hover.png);
 }
 
 #p1{
@@ -413,6 +477,382 @@ li {
   background-image: url(../img/sub/p4_hover.png);
   cursor: pointer;
 }
+
+#sub-pop-wrap{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 999;
+  position: relative;
+  padding-top: 50px;
+  box-sizing: border-box;
+  display: none;
+}
+
+@font-face {
+  font-family: 'GongGothicMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#sub-pop{
+  width: 1590px;
+  height: 870px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  font-size: 40px;
+  font-family: 'GongGothicMedium';
+}
+
+@font-face {
+  font-family: 'LeeSeoyun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/LeeSeoyun.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#sub-pop p{
+  font-family: 'LeeSeoyun';
+  margin-top: 10px;
+}
+
+#sub-left{
+  width: 576px;
+  height: 870px;
+  /* background-color: palegoldenrod; */
+  float: left;
+  padding-top: 94px;
+  box-sizing: border-box;
+}
+
+#sub-content{
+  width: 376px;
+  height: 100px;
+  /* background-color: aquamarine; */
+  margin-left: 100px;
+  text-align: center;
+}
+
+#sub-img{
+  width: 376px;
+  height: 376px;
+  background-color: aqua;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+
+#sub-line{
+  width: 376px;
+  height:2px;
+  background-color: lightgray;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+#sub-pdf{
+  width: 300px;
+  height: 50px;
+  /* background-color: blue; */
+  display: block;
+  margin: 30px auto 0 auto;
+  border: 1px solid lightgray;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'OTWelcomeRA';
+  line-height: 55px;
+  color: rgb(98, 98, 98);
+}
+
+#sub-pdf:hover{
+  background-color:rgb(98, 98, 98); ;
+  color: white;
+}
+
+#sub-center{
+  width: 507px;
+  height: 870px;
+  /* background-color: rgb(138, 98, 50); */
+  float: left;
+}  
+
+#sub-top-con, #sub-bottom-con,
+#sub-top-con2, #sub-bottom-con2{
+  width: 100%;
+  height: 435px;
+  /* background-color: aqua; */
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'OTWelcomeRA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/OTWelcomeRA.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#sub-tite1, #sub-title2, #sub-title3, #sub-title4{
+  text-align: center;
+  font-family: 'OTWelcomeRA';
+}
+
+#sub-tite1 p,
+#sub-title2 p,
+#sub-title3 p,
+#sub-title4 p{
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.sub-icon-wrap{
+  width: 400px;
+  height: 254px;
+  /* background-color: rgb(183, 239, 220); */
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'OTWelcomeRA';
+}
+
+.sub-icon-box{
+  width:133.333px;
+  height: 127px;
+  /* background-color: rgb(177, 117, 236); */
+  float: left;
+  font-size: 20px;
+}
+
+#sub-icon1{
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(182, 255, 255); */
+  background-image: url(../img/sub/sub-icon1.png);
+}
+
+#sub-icon2{
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(64, 149, 88); */
+  background-image: url(../img/sub/sub-icon2.png);
+}
+
+#sub-icon3{
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(120, 196, 196); */
+  background-image: url(../img/sub/sub-icon3.png);
+}
+
+#sub-icon4{
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(120, 196, 196); */
+  background-image: url(../img/sub/sub-icon4.png);
+}
+
+#sub-icon5{
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(120, 196, 196); */
+  background-image: url(../img/sub/sub-icon5.png);
+}
+
+#sub-icon6{
+  width: 100%;
+  height: 100px;
+  /* background-color: rgb(120, 196, 196); */
+  background-image: url(../img/sub/sub-icon6.png);
+} 
+
+.sub-icon-box2{
+  width: 200px;
+  height: 127px;
+  /* background-color: aquamarine; */
+  font-size: 20px;
+  float: left;
+}
+
+#sub-icon7{
+  width: 200px;
+  height: 100px;
+  /* background-color: rgb(134, 134, 158); */
+  background-image: url(../img/sub/sub-icon7.png);
+}
+
+#sub-icon8{
+  width: 200px;
+  height: 100px;
+  /* background-color: rgb(134, 134, 158); */
+  background-image: url(../img/sub/sub-icon8.png);
+}
+
+
+#sub-icon9{
+  width: 200px;
+  height: 100px;
+  /* background-color: rgb(134, 134, 158); */
+  background-image: url(../img/sub/sub-icon9.png);
+}
+
+
+#sub-icon10{
+  width: 200px;
+  height: 100px;
+  /* background-color: rgb(134, 134, 158); */
+  background-image: url(../img/sub/sub-icon10.png);
+}
+
+
+
+#sub-right{
+  width: 507px;
+  height: 870px;
+  background-color: rgb(223, 190, 150);
+  float: left;
+}
+
+
+.sub-icon{
+  width: 100%;
+  height: 63.5px;
+  /* background-color: yellow; */
+  font-size: 20px;
+  font-family: 'OTWelcomeRA';
+  margin-bottom: 10px;
+
+}
+
+.sub-icon-left{
+  width: 85px;
+  height: 100%;
+  /* background-color: rgb(203, 229, 229); */
+  line-height: 63.5px;
+  float: left;
+  margin-right: 20px;
+}
+
+.sub-icon-right{
+  font-weight: bold;
+}
+
+.sub-icon-right p{
+  font-weight: normal;
+}
+
+.sub-icon2{
+  width: 100%;
+  height: 63.5px;
+  /* background-color: yellow; */
+  font-size: 18px;
+  font-family: 'OTWelcomeRA';
+}
+
+.sub-icon2-left{
+  width: 140px;
+  height: 63.5px;
+  /* background-color: rgb(64, 159, 159); */
+  font-size: 25px;
+  text-align: center;
+  line-height: 63.5px;
+  float: left;
+}
+
+#sub-icon2-left3{
+  line-height: normal;
+}
+
+
+.sub-in-box{
+  width:15px;
+  height:50px;
+  background-color:rgb(234, 171, 171);
+  text-align:center;
+  line-height:100px;
+  transition-duration:1s;
+  float: left;
+  margin-top: 6.75px;
+}
+
+
+#sub-in-box1{
+  width: 15px;
+  animation: sub-in-box1 3s forwards;
+}
+
+@keyframes sub-in-box1{
+  from{
+    width: 15px;
+  }
+  to{
+    width: 233px;
+  }
+}
+
+#sub-in-box2{
+  width: 15px;
+  animation: sub-in-box2 3s forwards;
+  animation-delay: 2s;
+}
+
+@keyframes sub-in-box2{
+  from{
+    width: 15px;
+  }
+  to{
+    width: 220px;
+  }
+}
+
+#sub-in-box3{
+  width: 15px;
+  animation: sub-in-box3 3s forwards;
+  animation-delay: 3s;
+}
+
+@keyframes sub-in-box3{
+  from{
+    width: 15px;
+  }
+  to{
+    width: 200px;
+  }
+}
+
+
+#sub-in-box4{
+  width: 15px;
+  animation: sub-in-box4 3s forwards;
+  animation-delay: 4s;
+}
+
+@keyframes sub-in-box4{
+  from{
+    width: 15px;
+  }
+  to{
+    width: 190px;
+  }
+}
+
+#sub-pop-close{
+  width: 50px;
+  height: 50px;
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-family: 'OTWelcomeRA';
+  cursor: pointer;
+}
+
+
+#sub-pop-close:hover{
+  color: rgba(255, 255, 255,0.8);
+}
+
+
+
 
 
 #main-3{

@@ -285,8 +285,84 @@ $(document).ready(function(){
   }  
   
 
+  $("#p4").click(function(){
+    $("#sub-pop-wrap").fadeIn();
+  });
+
+  $("#sub-pop-close").click(function(){
+    $("#sub-pop-wrap").fadeOut();
+  });
+
+  $("#p0").click(function(){
+    $("#sub-phone-wrap").css({
+      display:"none",
+    });
+
+    $("#sub-phone").css({
+      display:"block"
+    });
+  });
+
+  $("#phone_prev").click(function(){
+    $("#sub-phone").css({
+      display:"none",
+    });
+    $("#sub-phone-wrap2").css({
+      display:"block",
+    });
+  });
+
+  $("#p0_to").click(function(){
+    $("#sub-phone").css({
+      display:"block"
+    });
+  });
+
+
+});
+
+
+
+$(document).ready(function(){
+  // var $likeBtn = $(".icon heart");
+
+  // $likeBtn.click(function(){
+  //   $likeBtn.toggleClass("active");
+
+  //   if($likeBtn.hasClass("active")){
+  //     $(this).find("img").attr({
+  //       "src":"./img/sub/button_hover.png",alt:"하트호버아이콘"
+  //     });
+  //   }else{
+  //     $(this).find("i").removeClass("fas").addClass("fas")
+  //     $(this).fing("img").attr({
+  //       "src":"./img/sub/button.png",alt:"하트아이콘"
+  //     });
+  //   }
+  // });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 });
+
+
+
+
+
+
+
+
+
